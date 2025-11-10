@@ -6,7 +6,7 @@ This project showcases my skills, experience, and the projects I’ve built as a
 ---
 
 ## 🚀 Live Demo
-👉 [View Live Portfolio]([https://github.com/saurabhbhattdev/portfolio-website](https://saurabhbhattdev.github.io/portfolio-website/))
+👉 [View Live Portfolio] (https://saurabhbhattdev.github.io/portfolio-website/)
 
 ---
 
