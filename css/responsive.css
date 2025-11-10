@@ -1,0 +1,762 @@
+/* MEDIA QUERY FOR MAX-WIDTH:1200PX */
+@media (max-width: 1200px) {
+  .nav-section,
+  .hero-section,
+  .about-me-section,
+  .skill-experience-section,
+  .services-I-offer-section,
+  .blog-section,
+  .request-for-quote-section {
+    padding-inline: 50px;
+  }
+  /* NAV SECTION */
+  .nav-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-section .links-list {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-start;
+
+    a {
+      font-weight: 400;
+      font-size: 16px;
+      color: var(--secondary-text-clr);
+    }
+  }
+
+  /* ABOUT ME SECTION*/
+  .about-me-section {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+  .about-me-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-me-container .about-me-heading-one {
+    margin-bottom: 15px;
+  }
+
+  .about-me-heading-two {
+    margin-bottom: 5px;
+    font-size: 36px;
+    text-align: center;
+  }
+
+  /* QUALIFICATION SECTION */
+  .skill-experience-section,
+  .services-I-offer-section {
+    margin-top: 80px;
+  }
+  .education-experience-myskills-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+  }
+  .item,
+  .experience-item {
+    width: 100%;
+  }
+
+  /* SERVICES SECTION*/
+  .services-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+  /*PROJECT-PORTFOLIO SECTION */
+  .project-portfolio-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .project-portfolio-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .project-portfolio-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+  }
+
+  .project-para {
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    word-break: break-word;
+    padding-inline: 20px;
+  }
+
+  .project-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .project-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px 0;
+    padding-inline: 20px;
+  }
+
+  .grid-item img {
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+  }
+
+  /* TESTIMONIAL SECTION */
+  .testimonial-section {
+    margin-inline: 50px;
+  }
+  .testimonials-decor-block {
+    display: none;
+  }
+  /* blog section */
+  .blog-card img {
+    width: 300px;
+    height: auto;
+  }
+
+  /* Request for quote section */
+
+  .quote-form {
+    margin-top: 50px;
+    margin-bottom: 0x;
+  }
+  .form-inputs,
+  .message-box {
+    width: auto;
+  }
+}
+/* Media Query for 1024px */
+
+@media (max-width: 1024px) {
+  .nav-section .links-list {
+    padding-left: 80px;
+    padding-right: 30px;
+    gap: 20px;
+  }
+  .about-me-section {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 30px;
+    margin-top: 80px;
+  }
+
+  .about-me-image {
+    width: 70%;
+    max-width: 400px;
+  }
+
+  .about-me-container {
+    width: 100%;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .about-me-heading-one {
+    font-size: 32px;
+    margin-bottom: 5px;
+  }
+
+  .about-me-heading-two {
+    font-size: 48px;
+    margin-bottom: 5px;
+  }
+
+  .para-one,
+  .para-two {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .know-more {
+    justify-content: center;
+  }
+
+  .know-more a {
+    padding: 14px 20px;
+    font-size: 15px;
+  }
+
+  /* Qualification Section */
+  .skill-experience-section,
+  .services-I-offer-section {
+    margin-top: 100px;
+  }
+
+  .education-experience-myskills-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+  }
+  .item,
+  .experience-item {
+    width: 100%;
+  }
+  /* Services Section */
+  .services-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    place-items: center;
+    text-align: center;
+  }
+  /* Project-Portfolio Section */
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 20px;
+  }
+
+  .project-portfolio-wrapper {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .project-portfolio-row {
+    flex-direction: column;
+    gap: 40px;
+  }
+  /* Testimonials Section */
+  .testimonial-section {
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .testimonials-content-wrapper {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .testimonials-heading-one,
+  .testimonials-heading-two {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+
+  .testimonials-para {
+    max-width: 90%;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .testimonials-reviews-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .testimonials-reviews-block img {
+    max-width: 120px;
+    height: auto;
+    margin-bottom: 5px;
+  }
+
+  .testimonials-reviews-block h4,
+  .testimonials-reviews-block h5,
+  .testimonials-reviews-block .company-name {
+    margin: 0;
+    font-size: 17px;
+  }
+
+  .testimonials-decor-block {
+    display: none;
+  }
+
+  /* blog section */
+
+  .blog-headings {
+    text-align: center;
+    gap: 20px;
+  }
+  .blog-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+  }
+
+  .blog-card {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .blog-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+
+  /* Request-for-Quote Section */
+  .request-for-quote-section {
+    margin-top: 80px;
+  }
+  .request-for-quote-headings {
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  .request-for-quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .quote-form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  .image-container{
+    margin-top: 100px;
+    max-width: 100%;
+    max-height: auto;
+    margin-bottom: 50px;
+  }
+
+  .map-image{
+    width: 100%;
+    align-items: center;
+  }
+}
+
+/* Media Query for 992px */
+@media (max-width: 992px) {
+  /* NAV SECTION */
+  .nav-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  .nav-section .links-list {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-start;
+    padding-right: 20px;
+    padding-left: 0;
+  }
+  .links-list li a {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--secondary-text-clr);
+  }
+  .hire-me-btn {
+    padding: 10px 12px;
+    margin-left: auto;
+  }
+  .logo-text-block h1 {
+    font-size: 18px;
+  }
+  .logo-text-block h2 {
+    font-size: 18px;
+    white-space: normal;
+  }
+  /* HERO SECTION */
+  .hero-section {
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-heading-one {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    white-space: normal;
+  }
+
+  .hero-heading-two {
+    font-size: 50px;
+    white-space: normal;
+    line-height: 1.2;
+    margin-bottom: 15px;
+  }
+  .hero-btns {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .hero-find-me-para {
+    margin-top: 20px;
+  }
+
+  .my-image {
+    align-items: right;
+    margin-top: 50px;
+    max-width: 450px;
+  }
+  .dotted-img {
+    display: none;
+  }
+  /* Qualification Section */
+  .skill-experience-section {
+    margin-top: 150px;
+    padding-inline: 40px;
+  }
+
+  .skill-experience-headings {
+    gap: 20px;
+  }
+
+  .education-experience-myskills-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .education-block,
+  .experience-block,
+  .skills-block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  .item,
+  .experience-item,
+  .skill-items {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 20px 25px;
+  }
+
+  .experience-item {
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+  }
+
+  .skills-list {
+    font-size: 15px;
+    gap: 12px;
+  }
+
+  .skills-list li::marker {
+    font-size: 16px;
+  }
+}
+
+/* Media for mobile max-width:768px */
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+  .nav-toggle {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 24px;
+    gap: 15px;
+  }
+
+  .hero-section {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-heading-one {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    white-space: normal;
+  }
+
+  .hero-heading-two {
+    font-size: 50px;
+    white-space: normal;
+    line-height: 1.2;
+    margin-bottom: 15px;
+  }
+  .hero-btns {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .hero-find-me-para {
+    margin-top: 20px;
+  }
+
+  .my-image {
+    align-items: right;
+    margin-top: 50px;
+    max-width: 450px;
+  }
+
+  .dotted-img {
+    display: none;
+  }
+
+  /* ABOUT ME SECTION */
+  .about-me-container .about-me-heading-one,
+  .about-me-heading-two {
+    text-align: center;
+  }
+  /* QUALIFICATION SECTION */
+  .skill-experience-headings {
+    gap: 15px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .skill-experience-headings h2,
+  .skill-experience-headings h3 {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* SERVICES I OFFER SECTION */
+  .services-I-offer-section {
+    margin-top: 100px;
+    padding-inline: 20px;
+  }
+
+  .services-headings {
+    gap: 15px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .services-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .services-content {
+    align-items: center;
+    text-align: center;
+  }
+
+  .services-content h4 {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .services-content p {
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 10px;
+  }
+
+  .services-content a {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+  }
+
+  /* PROJECT-PORTFOLIO SECTION */
+
+  .projects-portfolio-section {
+    padding-inline: 40px;
+  }
+
+  .project-portfolio-wrapper,
+  .project-portfolio-row {
+    gap: 30px;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .grid-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* TESTIMONIAL SECTION */
+  .testimonial-section {
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .testimonials-content-wrapper {
+    gap: 25px;
+  }
+
+  .testimonials-para {
+    font-size: 16px;
+  }
+
+  .testimonials-reviews-block {
+    max-width: 100%;
+    gap: 8px;
+    padding: 15px;
+  }
+
+  .testimonials-reviews-block img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .testimonials-reviews-block h4,
+  .testimonials-reviews-block h5,
+  .testimonials-reviews-block .company-name {
+    font-size: 16px;
+  }
+
+  /* BLOG SECTION*/
+  .blog-wrapper {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+}
+
+/* Media query for 576 */
+@media (max-width: 576px) {
+
+  /* NAV SECTION */
+  .nav-section{
+    padding-inline: 20px;
+  }
+
+  .side-nav ul li{
+    padding-left: 20px;
+  }
+  .side-nav .hire-me-btn{
+    text-align: center;
+    width: 30%;
+  }
+
+  /* SERVICES I OFFER SECTION */
+
+  .services-headings{
+    gap: 15px;
+  }
+  .services-heading-two{
+    font-size: 36px;
+  }
+  /* PROJECT-PORTFOLIO SECTION */
+  .projects-portfolio-section {
+    padding-inline: 20px;
+  }
+  .project-portfolio-left h2{
+    font-size: 24stpx;
+  }
+  .project-portfolio-left h3{
+    font-size: 32px;
+  }
+  .project-para {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .active-btn,
+  .btn-common {
+    padding: 14px 20px;
+    font-size: 14px;
+  }
+
+  /* TESTIMONIALS SECTION */
+  .testimonials-heading-two{
+    margin-top: 10px;
+    font-size: 32px;
+  }
+  /* BLOG SECTION */
+
+  .blog-headings{
+    text-align: center;
+  }
+
+  .blog-heading-two{
+    font-size: 32px;
+  }
+/* REQUEST FOR QUOTE SECTION */
+  .request-for-quote-section {
+    padding-inline: 20px;
+  }
+  .request-for-quote-headings {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .submit-btn {
+    max-width: 100%;
+  }
+
+  .image-container{
+    max-width: 100%;
+    height: auto;
+  }
+
+  .map-image{
+    width: 100%;
+  }
+
+  /* FOOTER SECTION */
+  .left-image img {
+    display: none;
+  }
+  .footer-content h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+  .footer-content h3,
+  .footer-content h4 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+}
