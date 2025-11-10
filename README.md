@@ -6,7 +6,7 @@ This project showcases my skills, experience, and the projects I’ve built as a
 ---
 
 ## 🚀 Live Demo
-👉 [View Live Portfolio] (https://github.com/saurabhbhattdev/portfolio-website)
+👉 [View Live Portfolio](https://github.com/saurabhbhattdev/portfolio-website)
 
 ---
 
@@ -34,3 +34,23 @@ It’s built entirely using **HTML, CSS, and JavaScript**, with a focus on acces
 - Clean Folder Structure for Maintainability
 
 ---
+
+## 📂 Folder Structure
+
+Portfolio/
+│
+├── css/
+│ ├── custom.css
+│ ├── responsive.css
+│
+├── images/
+│ ├── icons/
+│ ├── projects-images/
+│ └── ...
+│
+├── fonts/
+│ └── Rockwell/
+│
+├── first.js
+├── index.html
+└── README.md
