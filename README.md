@@ -40,16 +40,16 @@ It’s built entirely using **HTML, CSS, and JavaScript**, with a focus on acces
 Portfolio/
 │
 ├── css/
-│ ├── custom.css
-│ ├── responsive.css
+│   ├── custom.css
+│   ├── responsive.css
 │
 ├── images/
-│ ├── icons/
-│ ├── projects-images/
-│ └── ...
+│   ├── icons/
+│   ├── projects-images/
+│   └── ...
 │
 ├── fonts/
-│ └── Rockwell/
+│   └── Rockwell/
 │
 ├── first.js
 ├── index.html
