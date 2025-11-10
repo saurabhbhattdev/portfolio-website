@@ -37,6 +37,7 @@ It’s built entirely using **HTML, CSS, and JavaScript**, with a focus on acces
 
 ## 📂 Folder Structure
 
+```
 Portfolio/
 │
 ├── css/
@@ -54,3 +55,4 @@ Portfolio/
 ├── first.js
 ├── index.html
 └── README.md
+```
